@@ -20,4 +20,4 @@
 
   - summary: |
     Проверка входа пользователя если забыл пароль
-  status: pass
+  status: fail
