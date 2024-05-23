@@ -1,112 +1,117 @@
 ---
 - summary: |
     Проверка авторизации через GitHub
-requirement: |
+  requirement: |
     При наличии аккаунта пользователь должен войти в систему
-test-data: |
+  test-data: |
     -
-steps:
+  steps:
     - Пользователь авторизован в Github
     - Нажимаем кнопку "Sigh in with Github" 
-expected-result: |
+  expected-result: |
     Пользователь успешно авторизован через GitHub
 
 - summary: |
     Проверка авторизации через Discord
-requirement: |
+  requirement: |
     При наличии аккаунта пользователь должен войти в систему
-test-data: |
+  test-data: |
     -
-steps:
+  steps:
     - Пользователь авторизован в Discord
     - Нажимаем кнопку "Sigh in with Discord" 
-expected-result: |
+  expected-result: |
     Пользователь успешно авторизован через Discord
 
 - summary: |
     Проверка успешной авторизации
-requirement: |
+  requirement: |
     При верном вводе логине и пароля пользователь должен войти в систему
-test-data: |
+  test-data: |
     Тестовые данные
     Логин = 12322222@mail.ru Пароль = 111222
-steps:
+  steps:
     - Вводим логин
     - Вводим пароль
     - Нажимаем кнопку «Войти»
-expected-result: |
+  expected-result: |
     Пользователь успешно авторизован
 
 - summary: |
     Проверка кнопки "Create a game"
-requirement: |
+  requirement: |
     При нажатии кнопки "Create a game" пользователь создаст комнату для игр
-test-data: |
+  test-data: |
     -
-steps:
+  steps:
     - Нажимаем кнопку "Create a game"
     - Нажимаем кнопку "Create battle"
-expected-result: |
+  expected-result: |
     Игра появляется в столбце "Lobby" 
 
 - summary: |
     Проверка создание лобби без регистрации 
-requirement: |
+  requirement: |
     При нажатии кнопки "Try simple battle" откроется тестовая игра
-test-data: |
+  test-data: |
     -
-steps:
+  steps:
     - Нажимаем кнопку "Try simple battle" 
-expected-result: |
+  expected-result: |
     Игра с ботом успешно создана
 
 - summary: |
     Проверка получения ссылки при клике на "забыл пароль"  
-requirement: |
+  requirement: |
     При нажатии кнопки "Forgot ypur password?" отправится письмо на указанную электронную почтудляя восстановления пароля
-test-data: |
+  test-data: |
     - 
-steps:
+  steps:
     - Нажимаем кнопку "Forgot ypur password?" 
-expected-result: |
+  expected-result: |
     Пользователь получает письмо для восстановления пароля
 
 - summary: |
     Проверка отправки сообщения в чат на главной странице   
-requirement: |
+  requirement: |
     При отправке сообщения в чат "General" оно видно всемпользоваетлям на сайте
-test-data: |
+  test-data: |
     - 
-steps:
+  steps:
     - Вводим текст в строчку чата
     - нажимаем кнопку "Send"
-expected-result: |
+  expected-result: |
     Отправленное сообщения видят все пользователи на сайте
 
 - summary: |
      Проверка победы в игре
-requirement: |
+  requirement: |
     При победе в игре пользователь получит уведомляющий баннер
-test-data: |
+  test-data: |
     - 
-steps:
+  steps:
     - Создаем игру
-    - Одерживаем победу
-expected-result: |
+    - Одерживаем победу с помощью кода (const _ = require("lodash");
+const R = require("rambda");
+const solution = (width, length) => {
+  return width * length;
+};
+module.exports = solution;)
+  expected-result: |
     Пользователь видит надпись "Woohoo, you're Champion!!!!!"
 
 - summary: |
      Проверка регистрации пользователя
-requirement: |
+  requirement: |
     При успешной регистрации пользователь перейдет на главную страницу сайта 
-test-data: |
+  test-data: |
     - 
-steps:
+  steps:
     - Нажимаем кнопку "Sign up"
     - В поле "Nickname" вводим никнейм с использованием хотя бы одной латинской буквы
     - В поле "Email" вводим электронную почту 
     - В поле "Password" вводим ппароль минимум 6 символов
     - В поле "Password Confirmation" подтверждаем пароль
     - Нажимаем кнопку "Submit" 
-expected-result: |
+  expected-result: |
     Пользователь успешно зарегистрирован 
