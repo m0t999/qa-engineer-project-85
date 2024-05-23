@@ -22,14 +22,14 @@
     Проверка получения ссылки при клике на "забыл пароль"
   status: fail
 
-  - summary: |
+- summary: |
     Проверка отправки сообщения в чат на главной странице
   status: pass
 
-  - summary: |
+- summary: |
     Проверка победы в игре
   status: pass
 
-  - summary: |
+- summary: |
     Проверка регистрации пользователя
-  status: pass
+   status: pass
