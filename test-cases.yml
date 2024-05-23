@@ -113,7 +113,11 @@ const solution = (width, length) => {
 
 module.exports = solution;
   steps:
-    - Создаем игру
+    - Нажимаем кнопку "Create a game"
+    - Выбираем сложность одна звезда
+    - Время игры 10 минут
+    - Выбираем задание rect_area
+    - Нажимаем зеленую кнопку "Create battle"
     - Одерживаем победу с помощью кода из test-data
   expected-result: |
     Пользователь видит надпись "Woohoo, you're Champion!!!!!"
