@@ -114,6 +114,6 @@ const solution = (width, length) => {
 module.exports = solution;
   steps:
     - Создаем игру
-    - Одерживаем победу с помощью кода
+    - Одерживаем победу с помощью кода из test-data
   expected-result: |
     Пользователь видит надпись "Woohoo, you're Champion!!!!!"
