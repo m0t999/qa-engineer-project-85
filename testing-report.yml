@@ -1,35 +1,35 @@
 - summary: |
-    Проверка авторизации через GitHub
-status: pass
-
+    Краткое описание тест-кейса. Пример: Проверка входа пользователя с существующими логином и паролем
+  status: pass
+  
 - summary: |
     Проверка авторизации через Discord
-status: pass
-
+  status: pass
+ 
 - summary: |
     Проверка успешной авторизации
-status: pass
+  status: pass
 
 - summary: |
     Проверка кнопки "Create a game"
-status: pass
+  status: pass
 
 - summary: |
     Проверка создание лобби без регистрации
-status: pass
+  status: pass
 
 - summary: |
     Проверка получения ссылки при клике на "забыл пароль"
-status: fail
+  status: fail
 
 - summary: |
     Проверка отправки сообщения в чат на главной странице
-status: pass
+  status: pass
 
 - summary: |
     Проверка победы в игре
-status: pass
+  status: pass
 
 - summary: |
     Проверка регистрации пользователя
-status: pass
+  status: pass
