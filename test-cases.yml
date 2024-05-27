@@ -4,7 +4,7 @@
   requirement: |
     При успешной регистрации пользователь перейдет на главную страницу сайта 
   test-data: |
-    - 
+    - No-data
   steps:
     - Нажимаем кнопку "Sign up"
     - В поле "Nickname" вводим никнейм с использованием хотя бы одной латинской буквы
@@ -20,7 +20,7 @@
   requirement: |
     При наличии аккаунта пользователь должен войти в систему
   test-data: |
-    -
+    - No-data
   steps:
     - Пользователь авторизован в Github
     - Нажимаем кнопку "Sigh in with Github" 
@@ -32,7 +32,7 @@
   requirement: |
     При наличии аккаунта пользователь должен войти в систему
   test-data: |
-    -
+    - No-data
   steps:
     - Пользователь авторизован в Discord
     - Нажимаем кнопку "Sigh in with Discord" 
@@ -58,7 +58,7 @@
   requirement: |
     При нажатии кнопки "Create a game" пользователь создаст комнату для игр
   test-data: |
-    -
+    - No-data
   steps:
     - Нажимаем кнопку "Create a game"
     - Нажимаем кнопку "Create battle"
@@ -70,7 +70,7 @@
   requirement: |
     При нажатии кнопки "Try simple battle" откроется тестовая игра
   test-data: |
-    -
+    - No-data
   steps:
     - Нажимаем кнопку "Try simple battle" 
   expected-result: |
@@ -81,7 +81,7 @@
   requirement: |
     При нажатии кнопки "Forgot ypur password?" отправится письмо на указанную электронную почтудляя восстановления пароля
   test-data: |
-    - 
+    - No-data
   steps:
     - Нажимаем кнопку "Forgot ypur password?" 
   expected-result: |
@@ -92,7 +92,7 @@
   requirement: |
     При отправке сообщения в чат "General" оно видно всемпользоваетлям на сайте
   test-data: |
-    - 
+    - No-data
   steps:
     - Вводим текст в строчку чата
     - нажимаем кнопку "Send"
