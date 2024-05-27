@@ -104,14 +104,7 @@
   requirement: |
     При победе в игре пользователь получит уведомляющий баннер
   test-data: |
-    - "const _ = require("lodash");
-const R = require("rambda");
-
-const solution = (width, length) => {
-  return width * length;
-};
-
-module.exports = solution;"
+    - Код для победы в игре
   steps:
     - Нажимаем кнопку "Create a game"
     - Выбираем сложность одна звезда
